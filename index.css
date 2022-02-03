@@ -1,0 +1,13 @@
+.result{
+    border: 1px solid gray;
+}
+.result img{
+    height: 130px;
+    width: 130px;
+}
+#searchButton{
+    display:block;
+    height: 30px;
+    width: 100px;
+    margin:30px;
+}

@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <div class="filters">
+            <h3>Search the collection</h3>
+            <input type="text" id="searchInput" placeholder="Search artwork..">
+            <h4>Date/Era:</h4>
+            <p>Start year: <input type="text" id="startDate" placeholder="View artwork from ..."></p>
+            <p>End year: <input type="text" id="endDate" placeholder="View artwork until ..."></p>
+            <input type="checkbox" id="isPublicDomain">
+            <label for="isPublicDomain">Public Domain artwork</label>
+            <button id="searchButton" onclick="searchArtworks()">Search</button>
+        </div>
+        <div id="results">
+            
+        </div>
+    </body>
+</html>
